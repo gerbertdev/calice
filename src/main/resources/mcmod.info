@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cotv",
+  "name": "Chalice of the Void",
+  "description": "",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["GerbShert"],
+  "credits": "GerbShert - Images and Coding || WAPC Family - Idea",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

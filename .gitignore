@@ -1,0 +1,9 @@
+/*
+!ReadMe.md
+!.gitignore
+!src/
+!lib/
+!gradle/
+!build.gradle
+!gradlew*
+thumbs.db
