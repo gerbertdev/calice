@@ -1,7 +1,7 @@
 [
 {
-  "modid": "cotv",
-  "name": "Chalice of the Void",
+  "modid": "chalice",
+  "name": "Chalice",
   "description": "",
   "version": "${version}",
   "mcversion": "${mcversion}",

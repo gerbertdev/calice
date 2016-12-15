@@ -1,9 +1,22 @@
-/*
-!ReadMe.md
-!.gitignore
-!src/
-!lib/
-!gradle/
-!build.gradle
-!gradlew*
-thumbs.db
+# eclipse
+bin
+*.launch
+.settings
+.metadata
+.classpath
+.project
+
+# idea
+out
+*.ipr
+*.iws
+*.iml
+.idea
+
+# gradle
+build
+.gradle
+
+# other
+eclipse
+run
