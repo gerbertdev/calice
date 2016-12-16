@@ -1,7 +1,6 @@
 package com.gerbshert.cotv.items;
 
 import com.gerbshert.cotv.Chalice;
-import com.gerbshert.cotv.client.ChaliceTab;
 import com.gerbshert.cotv.libraries.Strings;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -33,8 +32,8 @@ public class ChaliceItems {
     public static void registerItemsRecipes() {
         GameRegistry.addRecipe(new ItemStack(chaliceSea, 1), "ioi", " i ", "iii", Character.valueOf('i'), Items.GOLD_INGOT, Character.valueOf('o'), itemSeaPearl);
         GameRegistry.addRecipe(new ItemStack(chaliceVoid, 1), "ioi", " i ", "iii", Character.valueOf('i'), Items.GOLD_INGOT, Character.valueOf('o'), itemVoidPearl);
-        GameRegistry.addRecipe(new ItemStack(itemSeaPearl, 1), " x ", "xox", " x ", Character.valueOf('x'), Blocks.OBSIDIAN, Character.valueOf('o'), Items.ENDER_PEARL);
-        GameRegistry.addRecipe(new ItemStack(itemVoidPearl, 1), " x ", "xox", " x ", Character.valueOf('x'), Blocks.LAPIS_BLOCK, Character.valueOf('o'), Items.ENDER_PEARL);
+        GameRegistry.addRecipe(new ItemStack(itemVoidPearl, 1), " x ", "xox", " x ", Character.valueOf('x'), Blocks.OBSIDIAN, Character.valueOf('o'), Items.ENDER_PEARL);
+        GameRegistry.addRecipe(new ItemStack(itemSeaPearl, 1), " x ", "xox", " x ", Character.valueOf('x'), Blocks.LAPIS_BLOCK, Character.valueOf('o'), Items.ENDER_PEARL);
         //GameRegistry.addRecipe(new ItemStack(toolChalice,1),"ioi"," i ","iii",Character.valueOf('i'), "ingotBrass",Character.valueOf('o'), itemVoidPearl);
     }
 

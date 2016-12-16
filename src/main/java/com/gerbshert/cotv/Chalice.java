@@ -10,9 +10,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
 
-import static com.gerbshert.cotv.items.ChaliceItems.registerItems;
-import static com.gerbshert.cotv.items.ChaliceItems.registerItemsRecipes;
-import static com.gerbshert.cotv.items.ChaliceItems.renderItems;
+import static com.gerbshert.cotv.items.ChaliceItems.*;
 
 /**
  * Created by Gabriel on 14-Dec-16.
