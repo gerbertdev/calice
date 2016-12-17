@@ -10,6 +10,8 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
+import static com.gerbshert.cotv.libraries.Configs.*;
+
 /**
  * Created by Gabriel on 14-Dec-16.
  */
@@ -22,27 +24,51 @@ public class ChaliceItems {
 
     //Register Item
     public static void registerItems() {
-        GameRegistry.register(chaliceSea);
-        GameRegistry.register(chaliceVoid);
-        GameRegistry.register(itemSeaPearl);
-        GameRegistry.register(itemVoidPearl);
+        if (enableSeaChalice && enableSeaPearl) {
+            GameRegistry.register(chaliceSea);
+        }
+        if (enableVoidChalice && enableVoidPearl) {
+            GameRegistry.register(chaliceVoid);
+        }
+        if (enableSeaPearl) {
+            GameRegistry.register(itemSeaPearl);
+        }
+        if (enableVoidPearl) {
+            GameRegistry.register(itemVoidPearl);
+        }
     }
 
     //Register Item Recipes
     public static void registerItemsRecipes() {
-        GameRegistry.addRecipe(new ItemStack(chaliceSea, 1), "ioi", " i ", "iii", Character.valueOf('i'), Items.GOLD_INGOT, Character.valueOf('o'), itemSeaPearl);
-        GameRegistry.addRecipe(new ItemStack(chaliceVoid, 1), "ioi", " i ", "iii", Character.valueOf('i'), Items.GOLD_INGOT, Character.valueOf('o'), itemVoidPearl);
-        GameRegistry.addRecipe(new ItemStack(itemVoidPearl, 1), " x ", "xox", " x ", Character.valueOf('x'), Blocks.OBSIDIAN, Character.valueOf('o'), Items.ENDER_PEARL);
-        GameRegistry.addRecipe(new ItemStack(itemSeaPearl, 1), " x ", "xox", " x ", Character.valueOf('x'), Blocks.LAPIS_BLOCK, Character.valueOf('o'), Items.ENDER_PEARL);
+        if (enableSeaChalice && enableSeaPearl) {
+            GameRegistry.addRecipe(new ItemStack(chaliceSea, 1), "ioi", " i ", "iii", Character.valueOf('i'), Items.GOLD_INGOT, Character.valueOf('o'), itemSeaPearl);
+        }
+        if (enableVoidChalice && enableVoidPearl) {
+            GameRegistry.addRecipe(new ItemStack(chaliceVoid, 1), "ioi", " i ", "iii", Character.valueOf('i'), Items.GOLD_INGOT, Character.valueOf('o'), itemVoidPearl);
+        }
+        if (enableVoidPearl) {
+            GameRegistry.addRecipe(new ItemStack(itemVoidPearl, 1), " x ", "xox", " x ", Character.valueOf('x'), Blocks.OBSIDIAN, Character.valueOf('o'), Items.ENDER_PEARL);
+        }
+        if (enableSeaPearl) {
+            GameRegistry.addRecipe(new ItemStack(itemSeaPearl, 1), " x ", "xox", " x ", Character.valueOf('x'), Blocks.LAPIS_BLOCK, Character.valueOf('o'), Items.ENDER_PEARL);
+        }
         //GameRegistry.addRecipe(new ItemStack(toolChalice,1),"ioi"," i ","iii",Character.valueOf('i'), "ingotBrass",Character.valueOf('o'), itemVoidPearl);
     }
 
     //Render Item
     public static void renderItems() {
-        renderMe(chaliceSea);
-        renderMe(chaliceVoid);
-        renderMe(itemSeaPearl);
-        renderMe(itemVoidPearl);
+        if (enableSeaChalice && enableSeaPearl) {
+            renderMe(chaliceSea);
+        }
+        if (enableVoidChalice && enableVoidPearl) {
+            renderMe(chaliceVoid);
+        }
+        if (enableSeaPearl) {
+            renderMe(itemSeaPearl);
+        }
+        if (enableVoidPearl) {
+            renderMe(itemVoidPearl);
+        }
     }
 
     public static void renderMe(Item myItem) {

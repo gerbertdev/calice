@@ -1,0 +1,33 @@
+package com.gerbshert.cotv.libraries;
+
+import net.minecraftforge.common.config.Configuration;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+/**
+ * Created by Gabriel on 16-Dec-16.
+ */
+public class Configs {
+    public static String[] defaultBlackList = {"example", "fluids"};
+    public static String[] fluidBlacklist;
+    public static Boolean enableVoidChalice;
+    public static Boolean enableSeaChalice;
+    public static Boolean enableVoidPearl;
+    public static Boolean enableSeaPearl;
+    public static Boolean enableBoundlessBarrel;
+    public static Boolean enableVoidBarrel;
+    public static Boolean enableLeakingBarrel;
+
+    public static void setupConfig(FMLPreInitializationEvent event) {
+        Configuration config = new Configuration(event.getSuggestedConfigurationFile());
+        config.load();
+        fluidBlacklist = config.get(config.CATEGORY_GENERAL, "Black-listed Fluids:", defaultBlackList).getStringList();
+        enableVoidChalice = config.get(config.CATEGORY_GENERAL, "Enable Void Chalice", true).getBoolean();
+        enableSeaChalice = config.get(config.CATEGORY_GENERAL, "Enable Sea Chalice", true).getBoolean();
+        enableVoidPearl = config.get(config.CATEGORY_GENERAL, "Enable Void Pearl", true).getBoolean();
+        enableSeaPearl = config.get(config.CATEGORY_GENERAL, "Enable Sea Pearl", true).getBoolean();
+        enableBoundlessBarrel = config.get(config.CATEGORY_GENERAL, "Enable Boundless Barrel", true).getBoolean();
+        enableVoidBarrel = config.get(config.CATEGORY_GENERAL, "Enable Void Barrel", true).getBoolean();
+        enableLeakingBarrel = config.get(config.CATEGORY_GENERAL, "Enable Leaking Barrel", true).getBoolean();
+        config.save();
+    }
+}

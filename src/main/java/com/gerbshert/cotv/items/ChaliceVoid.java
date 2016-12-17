@@ -22,7 +22,7 @@ import net.minecraftforge.fml.common.registry.GameData;
 import java.util.Arrays;
 import java.util.Random;
 
-import static com.gerbshert.cotv.Chalice.fluidBlacklist;
+import static com.gerbshert.cotv.libraries.Configs.fluidBlacklist;
 
 /**
  * Created by Gabriel on 14-Dec-16.
