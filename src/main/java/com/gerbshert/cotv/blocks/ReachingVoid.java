@@ -30,7 +30,7 @@ public class ReachingVoid extends Block {
     public ReachingVoid() {
         super(Material.ICE);
         String name = "reachingVoid";
-        setRegistryName(Strings.MOD_ID + "." + name);
+        setRegistryName(Strings.MOD_ID, name);
         setUnlocalizedName(Strings.MOD_ID + ":" + name);
         this.setDefaultState(this.blockState.getBaseState().withProperty(STAGE, maxLiquidVoid));
     }
@@ -54,15 +54,12 @@ public class ReachingVoid extends Block {
     public void updateTick(World worldIn, BlockPos blockPos, IBlockState state, Random rand) {
         worldIn.scheduleBlockUpdate(blockPos, this, this.tickRate(worldIn), 1);
         int voidStage = state.getValue(STAGE);
-        System.out.println("Start Update Tick @ " + blockPos + ". Current Stage:" + voidStage);
         if (voidStage == 0) {
             worldIn.setBlockToAir(blockPos);
-            System.out.println("End Update Tick @ " + blockPos + ". Removal.");
         } else {
             grow(worldIn, voidStage, blockPos, state);
             voidStage--;
             worldIn.setBlockToAir(blockPos);
-            System.out.println("End Update Tick @ " + blockPos + ". Current Stage:" + voidStage);
         }
     }
 
@@ -72,7 +69,6 @@ public class ReachingVoid extends Block {
     }
 
     public void grow(World world, int life, BlockPos pos, IBlockState state){
-        System.out.println("GROW @ " + pos + ". Current Stage:" + voidStage);
         Block NORTH = world.getBlockState(pos.north()).getBlock();
         Block SOUTH = world.getBlockState(pos.south()).getBlock();
         Block EAST = world.getBlockState(pos.east()).getBlock();
