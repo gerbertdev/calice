@@ -10,6 +10,9 @@ import static com.gerbshert.cotv.libraries.Configs.enableVoidChalice;
  */
 public class ChaliceBlocks {
     public static Block reachingVoid = new ReachingVoid();
+    public static Block couldronBoundless = new ReachingVoid();
+    public static Block couldronVoid = new ReachingVoid();
+    public static Block couldronLeaking = new ReachingVoid();
 
     public static void registerBlocks() {
         if (enableVoidChalice) {
