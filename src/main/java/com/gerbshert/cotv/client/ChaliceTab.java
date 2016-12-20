@@ -3,6 +3,7 @@ package com.gerbshert.cotv.client;
 import com.gerbshert.cotv.items.ChaliceItems;
 import com.gerbshert.cotv.libraries.Strings;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 /**
@@ -19,8 +20,8 @@ public class ChaliceTab extends CreativeTabs {
     }
 
     @Override
-    public ItemStack getTabIconItem() {
+    public Item getTabIconItem() {
 
-        return new ItemStack(ChaliceItems.chaliceVoid);
+        return ChaliceItems.chaliceVoid;
     }
 }
