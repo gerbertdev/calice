@@ -32,9 +32,9 @@ public class ChaliceSea extends Item {
         maxStackSize = 1;
     }
 
-    public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
+    public ActionResult<ItemStack> onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn, EnumHand hand) {
         RayTraceResult raytraceresult = this.rayTrace(worldIn, playerIn, true);
-        ItemStack itemstack = playerIn.getHeldItem(handIn);
+        ItemStack itemstack = playerIn.getHeldItem(hand);
 
         if (raytraceresult == null) {
             return new ActionResult(EnumActionResult.PASS, itemstack);
