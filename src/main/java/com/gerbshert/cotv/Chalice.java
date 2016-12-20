@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
 
+import static com.gerbshert.cotv.blocks.ChaliceBlocks.registerBlocks;
 import static com.gerbshert.cotv.items.ChaliceItems.*;
 import static com.gerbshert.cotv.libraries.Configs.setupConfig;
 
@@ -26,6 +27,7 @@ public class Chalice {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
+        registerBlocks();
         registerItems();
         registerItemsRecipes();
         if (event.getSide() == Side.CLIENT) {

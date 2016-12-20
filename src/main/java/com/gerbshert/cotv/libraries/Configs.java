@@ -7,8 +7,11 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
  * Created by Gabriel on 16-Dec-16.
  */
 public class Configs {
-    public static String[] defaultBlackList = {"example", "fluids"};
+    public static String[] defaultBlackList = {"minecraft:Grass", "minecraft:dirt"};
     public static String[] fluidBlacklist;
+    public static String endlessSeaLiquid;
+    public static String endlessSeaLiquidDefault = "minecraft:water";
+    public static int maxLiquidVoid;
     public static Boolean enableVoidChalice;
     public static Boolean enableSeaChalice;
     public static Boolean enableVoidPearl;
@@ -20,7 +23,10 @@ public class Configs {
     public static void setupConfig(FMLPreInitializationEvent event) {
         Configuration config = new Configuration(event.getSuggestedConfigurationFile());
         config.load();
+        config.setCategoryComment(config.CATEGORY_GENERAL, "Chalice Config Settings:");
         fluidBlacklist = config.get(config.CATEGORY_GENERAL, "Black-listed Fluids:", defaultBlackList).getStringList();
+        endlessSeaLiquid = config.get(config.CATEGORY_GENERAL, "Liquid Endless Seas Places:", endlessSeaLiquidDefault).getString();
+        maxLiquidVoid = config.get(config.CATEGORY_GENERAL, "Max Void Chalice Range:", 10).getInt();
         enableVoidChalice = config.get(config.CATEGORY_GENERAL, "Enable Void Chalice", true).getBoolean();
         enableSeaChalice = config.get(config.CATEGORY_GENERAL, "Enable Sea Chalice", true).getBoolean();
         enableVoidPearl = config.get(config.CATEGORY_GENERAL, "Enable Void Pearl", true).getBoolean();
