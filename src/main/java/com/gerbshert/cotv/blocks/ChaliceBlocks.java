@@ -1,8 +1,6 @@
 package com.gerbshert.cotv.blocks;
 
-import com.gerbshert.cotv.Chalice;
 import net.minecraft.block.Block;
-import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 import static com.gerbshert.cotv.libraries.Configs.enableVoidChalice;

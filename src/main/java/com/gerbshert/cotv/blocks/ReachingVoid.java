@@ -17,7 +17,6 @@ import net.minecraftforge.fluids.BlockFluidFinite;
 
 import java.util.Random;
 
-
 import static com.gerbshert.cotv.libraries.Configs.maxLiquidVoid;
 
 /**
@@ -68,30 +67,30 @@ public class ReachingVoid extends Block {
         return i;
     }
 
-    public void grow(World world, int life, BlockPos pos, IBlockState state){
+    public void grow(World world, int life, BlockPos pos, IBlockState state) {
         Block NORTH = world.getBlockState(pos.north()).getBlock();
         Block SOUTH = world.getBlockState(pos.south()).getBlock();
         Block EAST = world.getBlockState(pos.east()).getBlock();
         Block WEST = world.getBlockState(pos.west()).getBlock();
         Block UP = world.getBlockState(pos.up()).getBlock();
         Block DOWN = world.getBlockState(pos.down()).getBlock();
-        if ((NORTH instanceof BlockFluidBase) || (NORTH instanceof BlockFluidFinite) || (NORTH instanceof BlockFluidClassic) || (NORTH instanceof BlockLiquid) || (NORTH instanceof BlockStaticLiquid)){
-            world.setBlockState(pos.north(), this.getDefaultState().withProperty(STAGE, life-1));
+        if ((NORTH instanceof BlockFluidBase) || (NORTH instanceof BlockFluidFinite) || (NORTH instanceof BlockFluidClassic) || (NORTH instanceof BlockLiquid) || (NORTH instanceof BlockStaticLiquid)) {
+            world.setBlockState(pos.north(), this.getDefaultState().withProperty(STAGE, life - 1));
         }
-        if ((SOUTH instanceof BlockFluidBase) || (SOUTH instanceof BlockFluidFinite) || (SOUTH instanceof BlockFluidClassic) || (SOUTH instanceof BlockLiquid) || (SOUTH instanceof BlockStaticLiquid)){
-            world.setBlockState(pos.south(), this.getDefaultState().withProperty(STAGE, life-1));
+        if ((SOUTH instanceof BlockFluidBase) || (SOUTH instanceof BlockFluidFinite) || (SOUTH instanceof BlockFluidClassic) || (SOUTH instanceof BlockLiquid) || (SOUTH instanceof BlockStaticLiquid)) {
+            world.setBlockState(pos.south(), this.getDefaultState().withProperty(STAGE, life - 1));
         }
-        if ((EAST instanceof BlockFluidBase) || (EAST instanceof BlockFluidFinite) || (EAST instanceof BlockFluidClassic) || (EAST instanceof BlockLiquid) || (EAST instanceof BlockStaticLiquid)){
-            world.setBlockState(pos.east(), this.getDefaultState().withProperty(STAGE, life-1));
+        if ((EAST instanceof BlockFluidBase) || (EAST instanceof BlockFluidFinite) || (EAST instanceof BlockFluidClassic) || (EAST instanceof BlockLiquid) || (EAST instanceof BlockStaticLiquid)) {
+            world.setBlockState(pos.east(), this.getDefaultState().withProperty(STAGE, life - 1));
         }
-        if ((WEST instanceof BlockFluidBase) || (WEST instanceof BlockFluidFinite) || (WEST instanceof BlockFluidClassic) || (WEST instanceof BlockLiquid) || (WEST instanceof BlockStaticLiquid)){
-            world.setBlockState(pos.west(), this.getDefaultState().withProperty(STAGE, life-1));
+        if ((WEST instanceof BlockFluidBase) || (WEST instanceof BlockFluidFinite) || (WEST instanceof BlockFluidClassic) || (WEST instanceof BlockLiquid) || (WEST instanceof BlockStaticLiquid)) {
+            world.setBlockState(pos.west(), this.getDefaultState().withProperty(STAGE, life - 1));
         }
-        if ((UP instanceof BlockFluidBase) || (UP instanceof BlockFluidFinite) || (UP instanceof BlockFluidClassic) || (UP instanceof BlockLiquid) || (UP instanceof BlockStaticLiquid)){
-            world.setBlockState(pos.up(), this.getDefaultState().withProperty(STAGE, life-1));
+        if ((UP instanceof BlockFluidBase) || (UP instanceof BlockFluidFinite) || (UP instanceof BlockFluidClassic) || (UP instanceof BlockLiquid) || (UP instanceof BlockStaticLiquid)) {
+            world.setBlockState(pos.up(), this.getDefaultState().withProperty(STAGE, life - 1));
         }
-        if ((DOWN instanceof BlockFluidBase) || (DOWN instanceof BlockFluidFinite) || (DOWN instanceof BlockFluidClassic) || (DOWN instanceof BlockLiquid) || (DOWN instanceof BlockStaticLiquid)){
-            world.setBlockState(pos.down(), this.getDefaultState().withProperty(STAGE, life-1));
+        if ((DOWN instanceof BlockFluidBase) || (DOWN instanceof BlockFluidFinite) || (DOWN instanceof BlockFluidClassic) || (DOWN instanceof BlockLiquid) || (DOWN instanceof BlockStaticLiquid)) {
+            world.setBlockState(pos.down(), this.getDefaultState().withProperty(STAGE, life - 1));
         }
     }
 }
