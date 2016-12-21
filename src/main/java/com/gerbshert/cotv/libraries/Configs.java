@@ -19,9 +19,9 @@ public class Configs {
     public static Boolean enableVoidPearl;
     public static Boolean enableSeaPearl;
 
-    public static Boolean enableBoundlessBarrel;
-    public static Boolean enableVoidBarrel;
-    public static Boolean enableLeakingBarrel;
+    public static Boolean enableBoundlessCauldron;
+    public static Boolean enableVoidCauldron;
+    public static Boolean enableLeakingCauldron;
 
     public static void setupConfig(FMLPreInitializationEvent event) {
         Configuration config = new Configuration(event.getSuggestedConfigurationFile());
@@ -39,12 +39,12 @@ public class Configs {
         enableWAPCChalice = config.get("Content Configuration", "Enable WAPC Cup", true).getBoolean();
         enableVoidPearl = config.get("Content Configuration", "Enable Void Pearl", true).getBoolean();
         enableSeaPearl = config.get("Content Configuration", "Enable Sea Pearl", true).getBoolean();
-        enableBoundlessBarrel = config.get("Content Configuration", "Enable Boundless Barrel", true).getBoolean();
-        enableVoidBarrel = config.get("Content Configuration", "Enable Void Barrel", true).getBoolean();
-        enableLeakingBarrel = config.get("Content Configuration", "Enable Leaking Barrel", true).getBoolean();
+        enableBoundlessCauldron = config.get("Content Configuration", "Enable Boundless Cauldron", true).getBoolean();
+        enableVoidCauldron = config.get("Content Configuration", "Enable Void Cauldron", true).getBoolean();
+        enableLeakingCauldron = config.get("Content Configuration", "Enable Leaking Cauldron", true).getBoolean();
 
         config.setCategoryComment("COTV", "If this is set to 'false' ONLY the Void Chalice will appear in-game");
-        enableLeakingBarrel = config.get("COTV", "Disable New Content", false).getBoolean();
+        enableLeakingCauldron = config.get("COTV", "Disable New Content", false).getBoolean();
 
         config.save();
     }

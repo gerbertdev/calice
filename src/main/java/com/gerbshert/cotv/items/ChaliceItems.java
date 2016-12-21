@@ -24,32 +24,32 @@ public class ChaliceItems {
 
     //Register Item
     public static void registerItems() {
-        if ((enableSeaChalice && enableSeaPearl) || !disableOnRegentRemoved ) {
+        if ((enableSeaChalice && enableSeaPearl) || !disableOnRegentRemoved) {
             GameRegistry.register(chaliceSea);
         }
-        if ((enableVoidChalice && enableVoidPearl) || !disableOnRegentRemoved ) {
+        if ((enableVoidChalice && enableVoidPearl) || !disableOnRegentRemoved) {
             GameRegistry.register(chaliceVoid);
         }
-        if ((enableSeaPearl) || !disableOnRegentRemoved ) {
+        if (enableSeaPearl) {
             GameRegistry.register(itemSeaPearl);
         }
-        if ((enableVoidPearl) || !disableOnRegentRemoved ) {
+        if (enableVoidPearl) {
             GameRegistry.register(itemVoidPearl);
         }
     }
 
     //Register Item Recipes
     public static void registerItemsRecipes() {
-        if ((enableSeaChalice && enableSeaPearl) || !disableOnRegentRemoved ) {
+        if ((enableSeaChalice && (enableSeaPearl) || !disableOnRegentRemoved)) {
             GameRegistry.addRecipe(new ItemStack(chaliceSea, 1), "ioi", " i ", "iii", Character.valueOf('i'), Items.GOLD_INGOT, Character.valueOf('o'), itemSeaPearl);
         }
-        if ((enableVoidChalice && enableVoidPearl) || !disableOnRegentRemoved ) {
+        if ((enableVoidChalice && (enableVoidPearl) || !disableOnRegentRemoved)) {
             GameRegistry.addRecipe(new ItemStack(chaliceVoid, 1), "ioi", " i ", "iii", Character.valueOf('i'), Items.GOLD_INGOT, Character.valueOf('o'), itemVoidPearl);
         }
-        if ((enableVoidPearl) || !disableOnRegentRemoved ) {
+        if (enableVoidPearl) {
             GameRegistry.addRecipe(new ItemStack(itemVoidPearl, 1), " x ", "xox", " x ", Character.valueOf('x'), Blocks.OBSIDIAN, Character.valueOf('o'), Items.ENDER_PEARL);
         }
-        if ((enableSeaPearl) || !disableOnRegentRemoved ) {
+        if (enableSeaPearl) {
             GameRegistry.addRecipe(new ItemStack(itemSeaPearl, 1), " x ", "xox", " x ", Character.valueOf('x'), Blocks.LAPIS_BLOCK, Character.valueOf('o'), Items.ENDER_PEARL);
         }
         //GameRegistry.addRecipe(new ItemStack(toolChalice,1),"ioi"," i ","iii",Character.valueOf('i'), "ingotBrass",Character.valueOf('o'), itemVoidPearl);
@@ -57,16 +57,16 @@ public class ChaliceItems {
 
     //Render Item
     public static void renderItems() {
-        if ((enableSeaChalice && enableSeaPearl) || !disableOnRegentRemoved ) {
+        if ((enableSeaChalice && (enableSeaPearl) || !disableOnRegentRemoved)) {
             renderMe(chaliceSea);
         }
-        if ((enableVoidChalice && enableVoidPearl) || !disableOnRegentRemoved ) {
+        if ((enableVoidChalice && (enableVoidPearl) || !disableOnRegentRemoved)) {
             renderMe(chaliceVoid);
         }
-        if ((enableSeaPearl) || !disableOnRegentRemoved ) {
+        if (enableSeaPearl) {
             renderMe(itemSeaPearl);
         }
-        if ((enableVoidPearl) || !disableOnRegentRemoved ) {
+        if (enableVoidPearl) {
             renderMe(itemVoidPearl);
         }
     }
