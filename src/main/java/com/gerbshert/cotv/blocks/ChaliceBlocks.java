@@ -12,9 +12,9 @@ import static com.gerbshert.cotv.libraries.Configs.*;
  */
 public class ChaliceBlocks {
     public static Block reachingVoid = new ReachingVoid();
-    public static Block cauldronBoundless = new Block(Material.IRON).setRegistryName(Strings.MOD_ID, "cauldronBoundless").setUnlocalizedName(Strings.MOD_ID + ":" + "cauldronBoundless");
-    public static Block cauldronVoid = new Block(Material.IRON).setRegistryName(Strings.MOD_ID, "cauldronVoid").setUnlocalizedName(Strings.MOD_ID + ":" + "cauldronVoid");
-    public static Block cauldronLeaking = new Block(Material.IRON).setRegistryName(Strings.MOD_ID, "cauldronLeaking").setUnlocalizedName(Strings.MOD_ID + ":" + "cauldronLeaking");
+    public static Block cauldronBoundless = new BoundlessCauldron(Material.IRON);
+    public static Block cauldronVoid = new VoidCauldron(Material.IRON);
+    public static Block cauldronLeaking = new LeakingCauldron(Material.IRON);
 
     public static void registerBlocks() {
         if (enableVoidChalice) {
@@ -30,6 +30,6 @@ public class ChaliceBlocks {
         if ((enableLeakingCauldron && enableSeaPearl) || !disableOnRegentRemoved) {
             GameRegistry.registerWithItem(cauldronLeaking);
         }
-        
+
     }
 }
