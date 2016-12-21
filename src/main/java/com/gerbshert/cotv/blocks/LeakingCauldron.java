@@ -1,5 +1,6 @@
 package com.gerbshert.cotv.blocks;
 
+import com.gerbshert.cotv.Chalice;
 import com.gerbshert.cotv.libraries.Strings;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.MapColor;
@@ -14,5 +15,6 @@ public class LeakingCauldron extends Block {
         super(blockMaterialIn);
         setRegistryName(Strings.MOD_ID, "cauldronLeaking");
         setUnlocalizedName(Strings.MOD_ID + ":" + "cauldronLeaking");
+        setCreativeTab(Chalice.chaliceTab);
     }
 }
