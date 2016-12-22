@@ -22,8 +22,8 @@ public class VoidCauldron extends Block {
         setUnlocalizedName(Strings.MOD_ID + ":" + "cauldronVoid");
         setCreativeTab(Chalice.chaliceTab);
     }
-    @Override
-    public void onBlockClicked(World worldIn, BlockPos pos, EntityPlayer playerIn) {
+
+    public void onBlockActivated(World worldIn, BlockPos pos, EntityPlayer playerIn) {
         Item inHand = playerIn.getActiveItemStack().getItem();
         if (inHand instanceof ItemBucket){
             playerIn.setHeldItem(playerIn.getActiveHand(), new ItemStack(Items.BUCKET, 1));
