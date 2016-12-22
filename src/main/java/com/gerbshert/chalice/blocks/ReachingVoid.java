@@ -63,7 +63,7 @@ public class ReachingVoid extends Block {
     }
 
     public int getMetaFromState(IBlockState state) {
-        int i = ((Integer) state.getValue(STAGE)).intValue();
+        int i = 1;
         return i;
     }
 

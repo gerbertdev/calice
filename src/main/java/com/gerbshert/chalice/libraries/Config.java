@@ -27,6 +27,7 @@ public class Config {
     public static int maxVoidReach;
     public static Boolean disableOnIngredientRemoved;
     public static Boolean cotvMode;
+    public static Boolean enableSlimeVoiding;
 
 
     public static void setupConfig(FMLPreInitializationEvent event) {
@@ -35,6 +36,7 @@ public class Config {
         config.setCategoryComment(config.CATEGORY_GENERAL, "General Settings");
         fluidBlacklist = config.get(config.CATEGORY_GENERAL, "Black-Listed Fluids:", defaultBlackList).getStringList();
         maxVoidReach = config.get(config.CATEGORY_GENERAL, "Max Void Chalice Range:", 10).getInt();
+        enableSlimeVoiding = config.get(config.CATEGORY_GENERAL, "Allow Slime Voiding", true).getBoolean();
 
         config.setCategoryComment("Content Config", "Use this area to choose what content you see in-game. This is mostly for mod-pack devs");
         disableOnIngredientRemoved = config.get("Content Config", "Disable content if a required ingredient is removed", true).getBoolean();

@@ -1,5 +1,5 @@
 itemGroup.chalice=Chalice
-item.chalice.chaliceSea.name=Chalice of the Endless Sea
+item.chalice.chaliceSea.name=Chalice of Streaming Waters
 item.chalice.chaliceVoid.name=Chalice of Void's Reach
-item.chalice.itemSeaPearl.name=Pearl of Streaming Waters
-item.chalice.itemVoidPearl.name=Null Pearl
+item.chalice.itemSeaPearl.name=Contained Water Pearl
+item.chalice.itemVoidPearl.name=Void Pearl
