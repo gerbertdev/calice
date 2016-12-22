@@ -1,4 +1,4 @@
-package com.gerbshert.cotv.libraries;
+package com.gerbshert.chalice.libraries;
 
 /**
  * Created by Gabriel on 14-Dec-16.
@@ -6,5 +6,5 @@ package com.gerbshert.cotv.libraries;
 public class Strings {
     public static final String MOD_NAME = "Chalice";
     public static final String MOD_ID = "chalice";
-    public static final String MOD_VERSION = "1.11-2.3";
+    public static final String MOD_VERSION = "1.11-2.5";
 }

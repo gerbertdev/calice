@@ -1,6 +1,6 @@
-package com.gerbshert.cotv.blocks;
+package com.gerbshert.chalice.blocks;
 
-import com.gerbshert.cotv.libraries.Strings;
+import com.gerbshert.chalice.libraries.Strings;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockLiquid;
 import net.minecraft.block.BlockStaticLiquid;
@@ -17,21 +17,21 @@ import net.minecraftforge.fluids.BlockFluidFinite;
 
 import java.util.Random;
 
-import static com.gerbshert.cotv.libraries.Configs.maxLiquidVoid;
+import static com.gerbshert.chalice.libraries.Config.maxVoidReach;
 
 /**
  * Created by Gabriel on 17-Dec-16.
  */
 public class ReachingVoid extends Block {
-    public static final PropertyInteger STAGE = PropertyInteger.create("stage", 0, maxLiquidVoid);
-    static int voidStage = maxLiquidVoid;
+    public static final PropertyInteger STAGE = PropertyInteger.create("stage", 0, maxVoidReach);
+    static int voidStage = maxVoidReach;
 
     public ReachingVoid() {
         super(Material.ICE);
         String name = "reachingVoid";
         setRegistryName(Strings.MOD_ID, name);
         setUnlocalizedName(Strings.MOD_ID + ":" + name);
-        this.setDefaultState(this.blockState.getBaseState().withProperty(STAGE, maxLiquidVoid));
+        this.setDefaultState(this.blockState.getBaseState().withProperty(STAGE, maxVoidReach));
     }
 
     protected BlockStateContainer createBlockState() {

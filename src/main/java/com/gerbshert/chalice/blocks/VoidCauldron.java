@@ -1,7 +1,7 @@
-package com.gerbshert.cotv.blocks;
+package com.gerbshert.chalice.blocks;
 
-import com.gerbshert.cotv.Chalice;
-import com.gerbshert.cotv.libraries.Strings;
+import com.gerbshert.chalice.Chalice;
+import com.gerbshert.chalice.libraries.Strings;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
@@ -25,7 +25,7 @@ public class VoidCauldron extends Block {
 
     public void onBlockActivated(World worldIn, BlockPos pos, EntityPlayer playerIn) {
         Item inHand = playerIn.getActiveItemStack().getItem();
-        if (inHand instanceof ItemBucket){
+        if (inHand instanceof ItemBucket) {
             playerIn.setHeldItem(playerIn.getActiveHand(), new ItemStack(Items.BUCKET, 1));
         }
         super.onBlockClicked(worldIn, pos, playerIn);

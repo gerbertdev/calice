@@ -1,7 +1,7 @@
-package com.gerbshert.cotv.items;
+package com.gerbshert.chalice.items;
 
-import com.gerbshert.cotv.blocks.ChaliceBlocks;
-import com.gerbshert.cotv.libraries.Strings;
+import com.gerbshert.chalice.libraries.Strings;
+import com.gerbshert.chalice.blocks.ChaliceBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDynamicLiquid;
 import net.minecraft.block.BlockLiquid;
