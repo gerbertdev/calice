@@ -1,7 +1,8 @@
-package com.gerbshert.cotv.items;
+package com.gerbshert.chalice.items;
 
-import com.gerbshert.cotv.blocks.ChaliceBlocks;
-import com.gerbshert.cotv.libraries.Strings;
+import com.gerbshert.chalice.libraries.Config;
+import com.gerbshert.chalice.libraries.Strings;
+import com.gerbshert.chalice.blocks.ChaliceBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDynamicLiquid;
 import net.minecraft.block.BlockLiquid;
@@ -34,7 +35,7 @@ public class ChaliceVoid extends Item {
 
     @Override
     public boolean onLeftClickEntity(ItemStack stack, EntityPlayer player, Entity entity) {
-        if (entity instanceof EntitySlime) {
+        if ((entity instanceof EntitySlime)&& Config.enableSlimeVoiding) {
             BlockPos pos = entity.getPosition();
             entity.setPosition(pos.getX(), pos.getY() - 400, pos.getZ());
             entity.setDead();

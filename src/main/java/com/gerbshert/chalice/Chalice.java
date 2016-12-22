@@ -1,7 +1,11 @@
-package com.gerbshert.cotv;
+package com.gerbshert.chalice;
 
-import com.gerbshert.cotv.client.ChaliceTab;
-import com.gerbshert.cotv.libraries.Strings;
+import com.gerbshert.chalice.blocks.ChaliceBlocks;
+import com.gerbshert.chalice.client.ChaliceTab;
+import com.gerbshert.chalice.items.ChaliceItems;
+import com.gerbshert.chalice.libraries.Config;
+import com.gerbshert.chalice.libraries.Strings;
+import com.gerbshert.chalice.recipes.ChaliceRecipes;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -9,9 +13,6 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.relauncher.Side;
 
-import static com.gerbshert.cotv.blocks.ChaliceBlocks.registerBlocks;
-import static com.gerbshert.cotv.items.ChaliceItems.*;
-import static com.gerbshert.cotv.libraries.Configs.setupConfig;
 
 /**
  * Created by Gabriel on 14-Dec-16.
@@ -22,17 +23,24 @@ public class Chalice {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        setupConfig(event);
+        //Calling methods to create and read config.
+        Config.setupConfig(event);
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        registerBlocks();
-        registerItems();
-        registerItemsRecipes();
+        //Calling methods to register blocks, items, and recipes
+        ChaliceBlocks.registerBlocks();
+        ChaliceItems.registerItems();
+        ChaliceRecipes.registerRecipes();
+
+        /* Just a check to see if mod is running on a client or server.
+           If it is running on a client this registers item renderers
+           Also outputs a message to aware users viewing console output, based on whether running on a client or server.
+         */
         if (event.getSide() == Side.CLIENT) {
             System.out.println("You are running Chalice of the Void on a client! Thanks so much :3 for the support this mod! ~ Gerb");
-            renderItems();
+            ChaliceItems.renderItems();
         } else {
             System.out.println("You are running Chalice of the Void on a server! Thanks so much :3 for the support this mod! ~ Gerb");
         }
