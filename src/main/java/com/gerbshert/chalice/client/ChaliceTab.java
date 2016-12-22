@@ -1,9 +1,12 @@
-package com.gerbshert.cotv.client;
+package com.gerbshert.chalice.client;
 
-import com.gerbshert.cotv.items.ChaliceItems;
-import com.gerbshert.cotv.libraries.Strings;
+import com.gerbshert.chalice.items.ChaliceItems;
+import com.gerbshert.chalice.libraries.Config;
+import com.gerbshert.chalice.libraries.Strings;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBucket;
 import net.minecraft.item.ItemStack;
 
 /**
@@ -21,7 +24,10 @@ public class ChaliceTab extends CreativeTabs {
 
     @Override
     public Item getTabIconItem() {
-
-        return ChaliceItems.chaliceVoid;
+        if (Config.enableVoidChalice) {
+            return ChaliceItems.chaliceVoid;
+        } else {
+            return Items.BUCKET;
+        }
     }
 }

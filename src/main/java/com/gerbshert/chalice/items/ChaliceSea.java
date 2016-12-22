@@ -1,6 +1,6 @@
-package com.gerbshert.cotv.items;
+package com.gerbshert.chalice.items;
 
-import com.gerbshert.cotv.libraries.Strings;
+import com.gerbshert.chalice.libraries.Strings;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockAir;
 import net.minecraft.block.BlockLiquid;
@@ -32,9 +32,9 @@ public class ChaliceSea extends Item {
         maxStackSize = 1;
     }
 
-    public ActionResult<ItemStack> onItemRightClick(ItemStack itemStackIn, World worldIn, EntityPlayer playerIn, EnumHand hand) {
+    public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
         RayTraceResult raytraceresult = this.rayTrace(worldIn, playerIn, true);
-        ItemStack itemstack = playerIn.getHeldItem(hand);
+        ItemStack itemstack = playerIn.getHeldItem(handIn);
 
         if (raytraceresult == null) {
             return new ActionResult(EnumActionResult.PASS, itemstack);
