@@ -1,4 +1,4 @@
-package com.gerbshert.chalice.blocks;
+package com.gerbshert.chalice.block;
 
 import com.gerbshert.chalice.Chalice;
 import com.gerbshert.chalice.libraries.Strings;
@@ -15,8 +15,8 @@ import net.minecraft.world.World;
 /**
  * Created by Gabriel on 20-Dec-16.
  */
-public class VoidCauldron extends Block {
-    public VoidCauldron(Material materialIn) {
+public class BlockVoidCauldron extends Block {
+    public BlockVoidCauldron(Material materialIn) {
         super(materialIn);
         setRegistryName(Strings.MOD_ID, "cauldronVoid");
         setUnlocalizedName(Strings.MOD_ID + ":" + "cauldronVoid");

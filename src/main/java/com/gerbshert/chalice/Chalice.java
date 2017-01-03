@@ -1,11 +1,13 @@
 package com.gerbshert.chalice;
 
-import com.gerbshert.chalice.blocks.ChaliceBlocks;
+import com.gerbshert.chalice.block.ChaliceBlocks;
 import com.gerbshert.chalice.client.ChaliceTab;
-import com.gerbshert.chalice.items.ChaliceItems;
+import com.gerbshert.chalice.item.ChaliceItems;
 import com.gerbshert.chalice.libraries.Config;
 import com.gerbshert.chalice.libraries.Strings;
-import com.gerbshert.chalice.recipes.ChaliceRecipes;
+import com.gerbshert.chalice.recipe.RecipeBlocks;
+import com.gerbshert.chalice.recipe.RecipeItems;
+import com.gerbshert.chalice.tile.ChaliceTiles;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -23,19 +25,22 @@ public class Chalice {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        //Calling methods to create and read config.
+        //Calls method to create and read config
         Config.setupConfig(event);
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-        //Calling methods to register blocks, items, and recipes
+        //Calls methods to register blocks, items, tiles and recipes
         ChaliceBlocks.registerBlocks();
         ChaliceItems.registerItems();
-        ChaliceRecipes.registerRecipes();
+        ChaliceTiles.registerTiles();
+        RecipeBlocks.registerRecipes();
+        RecipeItems.registerRecipes();
 
-        /* Just a check to see if mod is running on a client or server.
-           If it is running on a client this registers item renderers
+        /*
+           Just a check to see if mod is running on a client or server.
+           If it is running on a client this calls a method to register item rendering.
            Also outputs a message to aware users viewing console output, based on whether running on a client or server.
          */
         if (event.getSide() == Side.CLIENT) {
