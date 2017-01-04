@@ -8,7 +8,7 @@ import net.minecraft.block.material.Material;
 /**
  * Created by Gabriel on 03-Jan-17.
  */
-public class CBlockBase extends Block{
+public class CBlockBase extends Block {
     public CBlockBase(String objectName, Material materialIn, boolean appearsInTab) {
         super(materialIn);
         this.setRegistryName(Strings.MOD_ID, objectName);

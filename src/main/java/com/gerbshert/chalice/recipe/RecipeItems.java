@@ -13,10 +13,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class RecipeItems {
     //Register Item Recipes
     public static void registerRecipes() {
-        if ((Config.enableSeaChalice && (Config.enableSeaPearl) || !Config.disableOnIngredientRemoved)) {
+        if ((Config.enableSeaChalice && Config.enableSeaPearl) || !Config.disableOnIngredientRemoved) {
             GameRegistry.addRecipe(new ItemStack(ChaliceItems.chaliceSea, 1), "ioi", " i ", "iii", Character.valueOf('i'), Items.GOLD_INGOT, Character.valueOf('o'), ChaliceItems.itemSeaPearl);
         }
-        if ((Config.enableVoidChalice && (Config.enableVoidPearl) || !Config.disableOnIngredientRemoved)) {
+        if ((Config.enableVoidChalice && Config.enableVoidPearl) || !Config.disableOnIngredientRemoved) {
             GameRegistry.addRecipe(new ItemStack(ChaliceItems.chaliceVoid, 1), "ioi", " i ", "iii", Character.valueOf('i'), Items.GOLD_INGOT, Character.valueOf('o'), ChaliceItems.itemVoidPearl);
         }
         if (Config.enableVoidPearl) {

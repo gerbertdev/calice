@@ -31,14 +31,18 @@ public class ChaliceItems {
         if (Config.enableVoidPearl) {
             GameRegistry.register(itemVoidPearl);
         }
+        //Checks if mod is running on a client this calls a method to register item rendering.
+        if(Chalice.isClient){
+            renderItems();
+        }
     }
 
     //Registers Item Rendering
     public static void renderItems() {
-        if ((Config.enableSeaChalice && (Config.enableSeaPearl) || !Config.disableOnIngredientRemoved)) {
+        if ((Config.enableSeaChalice && Config.enableSeaPearl) || !Config.disableOnIngredientRemoved) {
             renderMe(chaliceSea);
         }
-        if ((Config.enableVoidChalice && (Config.enableVoidPearl) || !Config.disableOnIngredientRemoved)) {
+        if ((Config.enableVoidChalice && Config.enableVoidPearl) || !Config.disableOnIngredientRemoved) {
             renderMe(chaliceVoid);
         }
         if (Config.enableSeaPearl) {

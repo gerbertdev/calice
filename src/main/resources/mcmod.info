@@ -2,13 +2,13 @@
 {
   "modid": "chalice",
   "name": "Chalice",
-  "description": "",
-  "version": "1.11-2.5",
+  "description": "A Void Fluid Bucket Mod",
+  "version": "1.11-2.6",
   "mcversion": "${mcversion}",
   "url": "chalice.gerbshert.com",
   "updateUrl": "https://minecraft.curseforge.com/projects/chalice/",
   "authorList": ["GerbShert"],
-  "credits": "GerbShert - Images and Coding || WAPC Family - Idea",
+  "credits": "GerbShert - Images and Coding || WAPC Family - Original Idea",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

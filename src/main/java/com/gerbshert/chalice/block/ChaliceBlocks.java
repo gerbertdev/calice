@@ -1,8 +1,13 @@
 package com.gerbshert.chalice.block;
 
+import com.gerbshert.chalice.Chalice;
 import com.gerbshert.chalice.libraries.Config;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemBlock;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
@@ -15,24 +20,30 @@ public class ChaliceBlocks {
     public static Block cauldronVoid = new BlockVoidCauldron(Material.IRON);
     public static Block cauldronLeaking = new BlockLeakCauldron(Material.IRON);
 
-    public static Block tanktest = new TankTest("tanktest");
-
     //Registers Block Objects
     public static void registerBlocks() {
         if (Config.enableVoidChalice) {
             GameRegistry.register(reachingVoid);
         }
         if ((Config.enableSeaCauldron && Config.enableSeaPearl) || !Config.disableOnIngredientRemoved) {
-            GameRegistry.registerWithItem(cauldronBoundless);
+            registerBlockWithItem(cauldronBoundless);
 
         }
         if ((Config.enableVoidCauldron && Config.enableVoidPearl) || !Config.disableOnIngredientRemoved) {
-            GameRegistry.registerWithItem(cauldronVoid);
+            registerBlockWithItem(cauldronVoid);
         }
         if ((Config.enableLeakCauldron && Config.enableSeaPearl) || !Config.disableOnIngredientRemoved) {
-            GameRegistry.registerWithItem(cauldronLeaking);
+            registerBlockWithItem(cauldronLeaking);
         }
+    }
 
-        GameRegistry.registerWithItem(tanktest);
+    //Registers A Block Object With An Item
+    public static void registerBlockWithItem(Block block) {
+        GameRegistry.register(block);
+        Item item = new ItemBlock(block).setRegistryName(block.getRegistryName());
+        GameRegistry.register(item);
+        if (Chalice.isClient){
+            Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(item.getRegistryName(), "inventory"));
+        }
     }
 }

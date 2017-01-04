@@ -2,7 +2,6 @@ package com.gerbshert.chalice.block;
 
 import com.gerbshert.chalice.Chalice;
 import com.gerbshert.chalice.libraries.Strings;
-import net.minecraft.block.BlockCauldron;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
@@ -14,7 +13,7 @@ import java.util.Random;
 /**
  * Created by Gabriel on 20-Dec-16.
  */
-public class BlockLeakCauldron extends BlockCauldron {
+public class BlockLeakCauldron extends CCauldronBase {
 
     public BlockLeakCauldron(Material blockMaterialIn) {
         //super(blockMaterialIn);
@@ -31,7 +30,7 @@ public class BlockLeakCauldron extends BlockCauldron {
 
     @Override
     public int tickRate(World worldIn) {
-        return 40;
+        return 5;
     }
 
     @Override
