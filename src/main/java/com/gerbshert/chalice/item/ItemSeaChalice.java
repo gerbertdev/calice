@@ -1,4 +1,4 @@
-package com.gerbshert.chalice.items;
+package com.gerbshert.chalice.item;
 
 import com.gerbshert.chalice.libraries.Strings;
 import net.minecraft.block.Block;
@@ -24,8 +24,8 @@ import java.util.Random;
 /**
  * Created by Gabriel on 14-Dec-16.
  */
-public class ChaliceSea extends Item {
-    public ChaliceSea() {
+public class ItemSeaChalice extends Item {
+    public ItemSeaChalice() {
         String name = "chaliceSea";
         setUnlocalizedName(Strings.MOD_ID + "." + name);
         setRegistryName(Strings.MOD_ID, name);

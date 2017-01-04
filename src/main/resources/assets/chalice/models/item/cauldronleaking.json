@@ -1,6 +1,3 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "chalice:blocks/cauldronleaking"
-  }
+  "parent": "chalice:block/leak_cauldron_level2"
 }

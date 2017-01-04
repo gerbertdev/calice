@@ -1,8 +1,8 @@
-package com.gerbshert.chalice.items;
+package com.gerbshert.chalice.item;
 
+import com.gerbshert.chalice.block.ChaliceBlocks;
 import com.gerbshert.chalice.libraries.Config;
 import com.gerbshert.chalice.libraries.Strings;
-import com.gerbshert.chalice.blocks.ChaliceBlocks;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDynamicLiquid;
 import net.minecraft.block.BlockLiquid;
@@ -25,8 +25,8 @@ import net.minecraftforge.fluids.BlockFluidFinite;
 /**
  * Created by Gabriel on 14-Dec-16.
  */
-public class ChaliceVoid extends Item {
-    public ChaliceVoid() {
+public class ItemVoidChalice extends Item {
+    public ItemVoidChalice() {
         String name = "chaliceVoid";
         setUnlocalizedName(Strings.MOD_ID + "." + name);
         setRegistryName(Strings.MOD_ID, name);
@@ -35,7 +35,7 @@ public class ChaliceVoid extends Item {
 
     @Override
     public boolean onLeftClickEntity(ItemStack stack, EntityPlayer player, Entity entity) {
-        if ((entity instanceof EntitySlime)&& Config.enableSlimeVoiding) {
+        if ((entity instanceof EntitySlime) && Config.enableSlimeVoiding) {
             BlockPos pos = entity.getPosition();
             entity.setPosition(pos.getX(), pos.getY() - 400, pos.getZ());
             entity.setDead();

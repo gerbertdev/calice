@@ -1,6 +1,3 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "chalice:blocks/cauldronboundless"
-  }
+  "parent": "chalice:block/sea_cauldron_level3"
 }

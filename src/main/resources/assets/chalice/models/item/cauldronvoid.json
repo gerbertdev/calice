@@ -1,6 +1,3 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "chalice:blocks/cauldronvoid"
-  }
+  "parent": "chalice:block/void_cauldron_empty"
 }

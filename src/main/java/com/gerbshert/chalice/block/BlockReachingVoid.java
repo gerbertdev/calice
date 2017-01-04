@@ -1,4 +1,4 @@
-package com.gerbshert.chalice.blocks;
+package com.gerbshert.chalice.block;
 
 import com.gerbshert.chalice.libraries.Strings;
 import net.minecraft.block.Block;
@@ -22,11 +22,11 @@ import static com.gerbshert.chalice.libraries.Config.maxVoidReach;
 /**
  * Created by Gabriel on 17-Dec-16.
  */
-public class ReachingVoid extends Block {
+public class BlockReachingVoid extends Block {
     public static final PropertyInteger STAGE = PropertyInteger.create("stage", 0, maxVoidReach);
     static int voidStage = maxVoidReach;
 
-    public ReachingVoid() {
+    public BlockReachingVoid() {
         super(Material.ICE);
         String name = "reachingVoid";
         setRegistryName(Strings.MOD_ID, name);

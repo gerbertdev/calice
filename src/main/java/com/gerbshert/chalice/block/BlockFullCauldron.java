@@ -1,8 +1,7 @@
-package com.gerbshert.chalice.blocks;
+package com.gerbshert.chalice.block;
 
 import com.gerbshert.chalice.Chalice;
 import com.gerbshert.chalice.libraries.Strings;
-import net.minecraft.block.BlockCauldron;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.util.math.BlockPos;
@@ -13,9 +12,9 @@ import java.util.Random;
 /**
  * Created by Gabriel on 20-Dec-16.
  */
-public class BoundlessCauldron extends BlockCauldron {
+public class BlockFullCauldron extends CCauldronBase {
 
-    public BoundlessCauldron(Material materialIn) {
+    public BlockFullCauldron(Material materialIn) {
         //super(materialIn);
         setRegistryName(Strings.MOD_ID, "cauldronBoundless");
         setUnlocalizedName(Strings.MOD_ID + ":" + "cauldronBoundless");
@@ -31,7 +30,7 @@ public class BoundlessCauldron extends BlockCauldron {
 
     @Override
     public int tickRate(World worldIn) {
-        return 40;
+        return 5;
     }
 
     @Override
