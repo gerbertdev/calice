@@ -2,13 +2,13 @@
 {
   "modid": "chalice",
   "name": "Chalice",
-  "description": "",
-  "version": "1.10-2.5",
+  "description": "Everybody's favourite void bucket mod from 1.7.10 and 1.8.9 has now been brought to 1.10.2 and 1.11. Apart from the name change, there have been many additions. New chalices, cauldrons, and increased customisation.",
+  "version": "1.10-2.6",
   "mcversion": "${mcversion}",
   "url": "chalice.gerbshert.com",
   "updateUrl": "https://minecraft.curseforge.com/projects/chalice/",
   "authorList": ["GerbShert"],
-  "credits": "GerbShert - Images and Coding || WAPC Family - Idea",
+  "credits": "GerbShert - Images and Coding || WAPC Family - Original Idea Behind the Void Chalice",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

@@ -1,11 +1,12 @@
 package com.gerbshert.chalice.client;
 
-import com.gerbshert.chalice.item.ChaliceItems;
+import com.gerbshert.chalice.items.ChaliceItems;
 import com.gerbshert.chalice.libraries.Config;
 import com.gerbshert.chalice.libraries.Strings;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemBucket;
 import net.minecraft.item.ItemStack;
 
 /**

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "chalice",
+  "name": "Chalice",
+  "description": "",
+  "version": "1.10-2.5",
+  "mcversion": "${mcversion}",
+  "url": "chalice.gerbshert.com",
+  "updateUrl": "https://minecraft.curseforge.com/projects/chalice/",
+  "authorList": ["GerbShert"],
+  "credits": "GerbShert - Images and Coding || WAPC Family - Idea",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
