@@ -3,7 +3,7 @@
   "modid": "chalice",
   "name": "Chalice",
   "description": "A Void Fluid Bucket Mod",
-  "version": "1.11-2.6",
+  "version": "1.11.2-2.6",
   "mcversion": "${mcversion}",
   "url": "chalice.gerbshert.com",
   "updateUrl": "https://minecraft.curseforge.com/projects/chalice/",
