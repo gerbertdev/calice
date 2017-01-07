@@ -192,7 +192,7 @@ public class CCauldronBase extends Block {
      */
     public void fillWithRain(World worldIn, BlockPos pos) {
         if (worldIn.rand.nextInt(20) == 1) {
-            float f = worldIn.getBiome(pos).getFloatTemperature(pos);
+            float f = worldIn.getBiomeGenForCoords(pos).getFloatTemperature(pos);
 
             if (worldIn.getBiomeProvider().getTemperatureAtHeight(f, pos.getY()) >= 0.15F) {
                 IBlockState iblockstate = worldIn.getBlockState(pos);

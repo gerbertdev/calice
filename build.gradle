@@ -1,7 +1,10 @@
 buildscript {
     repositories {
         jcenter()
-        maven { url = "http://files.minecraftforge.net/maven" }
+        maven {
+            name = "forge"
+            url = "http://files.minecraftforge.net/maven"
+        }
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:2.2-SNAPSHOT'
@@ -13,18 +16,11 @@ version = "1.10-2.6"
 group= "com.gerbshert.chalice"
 archivesBaseName = "chalice"
 
-sourceCompatibility = targetCompatibility = "1.6"
-compileJava {
-    sourceCompatibility = targetCompatibility = "1.6"
-}
-
 minecraft {
-    version = "1.10.2-12.18.3.2185"
-    runDir = "run"
-}
+    version = "1.10-12.18.0.2000-1.10.0"
+    runDir = "run"}
 
-dependencies {
-}
+dependencies {}
 
 processResources
 {
@@ -35,7 +31,7 @@ processResources
         include 'mcmod.info'
         expand 'version':project.version, 'mcversion':project.minecraft.version
     }
-        
+
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }
