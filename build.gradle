@@ -18,7 +18,9 @@ archivesBaseName = "chalice"
 
 minecraft {
     version = "1.10-12.18.0.2000-1.10.0"
-    runDir = "run"}
+    runDir = "run"
+    mappings = "snapshot_20160518"
+}
 
 dependencies {}
 
