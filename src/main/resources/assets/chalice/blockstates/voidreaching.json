@@ -1,0 +1,607 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=1": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=2": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=3": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=4": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=5": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=6": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=7": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=8": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=9": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=10": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=11": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=12": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=13": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=14": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=15": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=16": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=17": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=18": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=19": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=20": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=21": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=22": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=23": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=24": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=25": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=26": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=27": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=28": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=29": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=30": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=31": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=32": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=33": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=34": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=35": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=36": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=37": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=38": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=39": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=40": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=41": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=42": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=43": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=44": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=45": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=46": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=47": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=48": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=49": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=50": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=51": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=52": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=53": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=54": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=55": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=56": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=57": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=58": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=59": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=60": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=61": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=62": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=63": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=64": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=65": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=66": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=67": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=68": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=69": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=70": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=71": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=72": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=73": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=74": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=75": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=76": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=77": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=78": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=79": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=80": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=81": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=82": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=83": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=84": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=85": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=86": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=87": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=88": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=89": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=90": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=91": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=92": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=93": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=94": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=95": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=96": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=97": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=98": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=99": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=100": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=101": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=102": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=103": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=104": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=105": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=106": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=107": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=108": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=109": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=110": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=111": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=112": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=113": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=114": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=115": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=116": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=117": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=118": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=119": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=120": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=121": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=122": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=123": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=124": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=125": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=126": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=127": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=128": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=129": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=130": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=131": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=132": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=133": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=134": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=135": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=136": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=137": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=138": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=139": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=140": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=141": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=142": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=143": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=144": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=145": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=146": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=147": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=148": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=149": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=150": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=151": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=152": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=153": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=154": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=155": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=156": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=157": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=158": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=159": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=160": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=161": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=162": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=163": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=164": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=165": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=166": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=167": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=168": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=169": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=170": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=171": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=172": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=173": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=174": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=175": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=176": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=177": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=178": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=179": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=180": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=181": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=182": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=183": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=184": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=185": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=186": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=187": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=188": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=189": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=190": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=191": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=192": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=193": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=194": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=195": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=196": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=197": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=198": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=199": {
+      "model": "chalice:voidreaching"
+    },
+    "stage=200": {
+      "model": "chalice:voidreaching"
+    }
+  }
+}
