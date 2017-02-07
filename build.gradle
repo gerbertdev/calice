@@ -9,7 +9,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "1.11.2-2.6"
+version = "1.11.2-2.7"
 group = "com.gerbshert.chalice"
 archivesBaseName = "chalice"
 
@@ -19,7 +19,7 @@ compileJava {
 }
 
 minecraft {
-    version = "1.11.2-13.20.0.2204"
+    version = "1.11.2-13.20.0.2227"
     runDir = "run"
     mappings = "snapshot_20161220"
 }
