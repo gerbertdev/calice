@@ -1,7 +1,7 @@
 # Chalice: The Oceans are Yours to Shape
 ## Versions:
         MC:     ||  Chalice:
-        1.11.2  ||  2.6
+        1.11.2  ||  2.7
         1.11    ||  2.7
         1.10.2  ||  2.6
         1.9.4   ||  2.6
