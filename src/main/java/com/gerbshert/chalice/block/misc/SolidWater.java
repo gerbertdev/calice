@@ -8,6 +8,6 @@ import net.minecraft.block.material.Material;
  */
 public class SolidWater extends ModBBase {
     public SolidWater() {
-        super("waterSolid", Material.WATER, true);
+        super("watersolid", Material.WATER, true);
     }
 }

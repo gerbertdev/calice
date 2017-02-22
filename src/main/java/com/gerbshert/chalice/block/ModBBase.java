@@ -11,8 +11,8 @@ import net.minecraft.block.material.Material;
 public class ModBBase extends Block {
     public ModBBase(String objectName, Material materialIn, boolean appearsInTab) {
         super(materialIn);
-        this.setRegistryName(Strings.MOD_ID, objectName);
-        this.setUnlocalizedName(Strings.MOD_ID + "." + objectName);
+        this.setRegistryName(Strings.MOD_ID, objectName.toLowerCase());
+        this.setUnlocalizedName(Strings.MOD_ID + "." + objectName.toLowerCase());
         if (appearsInTab) {
             this.setCreativeTab(Chalice.chaliceTab);
         }

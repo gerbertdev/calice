@@ -10,8 +10,8 @@ import net.minecraft.item.Item;
 public class ModIBase extends Item {
     public ModIBase(String objectName, int stackSize, boolean appearsInTab) {
         this.maxStackSize = stackSize;
-        this.setUnlocalizedName(Strings.MOD_ID + "." + objectName);
-        this.setRegistryName(Strings.MOD_ID, objectName);
+        this.setUnlocalizedName(Strings.MOD_ID + "." + objectName.toLowerCase());
+        this.setRegistryName(Strings.MOD_ID, objectName.toLowerCase());
         if (appearsInTab) {
             this.setCreativeTab(Chalice.chaliceTab);
         }

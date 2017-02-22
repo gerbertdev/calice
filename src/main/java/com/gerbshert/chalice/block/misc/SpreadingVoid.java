@@ -25,7 +25,7 @@ public class SpreadingVoid extends ModBBase {
     static int voidStage = maxVoidReach;
 
     public SpreadingVoid() {
-        super("voidReaching", Material.ICE, true);
+        super("voidreaching", Material.ICE, true);
         this.setDefaultState(this.blockState.getBaseState().withProperty(STAGE, maxVoidReach));
     }
 

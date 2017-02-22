@@ -23,7 +23,7 @@ public class SpreadingWater extends ModBBase {
     static int voidStage = maxWaterReach;
 
     public SpreadingWater() {
-        super("waterRushing", Material.ICE, true);
+        super("waterrushing", Material.ICE, true);
         this.setDefaultState(this.blockState.getBaseState().withProperty(STAGE, maxWaterReach));
     }
 
