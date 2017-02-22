@@ -9,18 +9,19 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "1.10-2.6"
+version = "1.10.2-2.7"
 group= "com.gerbshert.chalice"
 archivesBaseName = "chalice"
 
-sourceCompatibility = targetCompatibility = "1.6"
+sourceCompatibility = targetCompatibility = "1.6" // Need this here so eclipse task generates correctly.
 compileJava {
     sourceCompatibility = targetCompatibility = "1.6"
 }
 
 minecraft {
-    version = "1.10.2-12.18.3.2185"
+    version = "1.10.2-12.18.3.2202"
     runDir = "run"
+    mappings = "snapshot_20161111"
 }
 
 dependencies {
@@ -30,12 +31,10 @@ processResources
 {
     inputs.property "version", project.version
     inputs.property "mcversion", project.minecraft.version
-
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
         expand 'version':project.version, 'mcversion':project.minecraft.version
     }
-        
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
     }

@@ -1,10 +1,29 @@
 itemGroup.chalice=Chalice
 
-item.chalice.chaliceSea.name=Chalice of Streaming Waters
-item.chalice.chaliceVoid.name=Chalice of Void's Reach
-item.chalice.itemSeaPearl.name=Contained Water Pearl
-item.chalice.itemVoidPearl.name=Void Pearl
 
-tile.chalice:cauldronVoid.name=Void Cauldron
-tile.chalice:cauldronBoundless.name=Boundless Cauldron
-tile.chalice:cauldronLeaking.name=Leaking Cauldron
+tile.chalice.cauldronBoundless.name=Boundless Cauldron
+tile.chalice.cauldronLeaking.name=Boundless Cauldron (Leaking)
+tile.chalice.cauldronVoid.name=Void Cauldron
+
+tile.chalice.reachingVoid.name=Reaching Void
+
+tile.chalice.waterSolid.name=Solid Water
+tile.chalice.waterRushing.name=Rushing Waters
+
+
+item.chalice.chaliceVoid.name=Chalice of Void's Reach
+item.chalice.chaliceWater.name=Chalice of Boundless Waters
+
+item.chalice.pearlVoid.name=Void Pearl
+item.chalice.pearlWater.name=Water Pearl
+item.chalice.corporealVoid.name=Water Pearl
+
+item.chalice.seedWater.name=Water Seed
+item.chalice.seedPond.name=Pond Seed
+item.chalice.seedLake.name=Lake Seed
+item.chalice.seedOcean.name=Ocean Seed
+
+
+
+achievement.chalice.corporealVoid=Whoa, How'd Ya Do That
+achievement.chalice.corporealVoid.desc=Obtain Corporeal Void

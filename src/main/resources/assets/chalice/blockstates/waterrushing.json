@@ -1,0 +1,607 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=1": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=2": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=3": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=4": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=5": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=6": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=7": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=8": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=9": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=10": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=11": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=12": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=13": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=14": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=15": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=16": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=17": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=18": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=19": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=20": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=21": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=22": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=23": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=24": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=25": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=26": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=27": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=28": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=29": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=30": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=31": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=32": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=33": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=34": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=35": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=36": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=37": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=38": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=39": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=40": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=41": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=42": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=43": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=44": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=45": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=46": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=47": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=48": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=49": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=50": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=51": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=52": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=53": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=54": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=55": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=56": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=57": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=58": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=59": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=60": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=61": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=62": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=63": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=64": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=65": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=66": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=67": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=68": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=69": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=70": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=71": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=72": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=73": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=74": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=75": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=76": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=77": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=78": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=79": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=80": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=81": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=82": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=83": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=84": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=85": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=86": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=87": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=88": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=89": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=90": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=91": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=92": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=93": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=94": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=95": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=96": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=97": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=98": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=99": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=100": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=101": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=102": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=103": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=104": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=105": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=106": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=107": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=108": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=109": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=110": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=111": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=112": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=113": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=114": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=115": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=116": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=117": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=118": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=119": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=120": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=121": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=122": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=123": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=124": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=125": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=126": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=127": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=128": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=129": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=130": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=131": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=132": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=133": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=134": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=135": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=136": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=137": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=138": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=139": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=140": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=141": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=142": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=143": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=144": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=145": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=146": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=147": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=148": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=149": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=150": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=151": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=152": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=153": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=154": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=155": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=156": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=157": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=158": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=159": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=160": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=161": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=162": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=163": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=164": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=165": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=166": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=167": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=168": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=169": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=170": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=171": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=172": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=173": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=174": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=175": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=176": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=177": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=178": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=179": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=180": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=181": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=182": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=183": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=184": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=185": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=186": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=187": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=188": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=189": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=190": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=191": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=192": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=193": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=194": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=195": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=196": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=197": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=198": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=199": {
+      "model": "chalice:waterrushing"
+    },
+    "stage=200": {
+      "model": "chalice:waterrushing"
+    }
+  }
+}
