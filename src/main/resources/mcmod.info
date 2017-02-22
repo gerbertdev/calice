@@ -3,7 +3,7 @@
   "modid": "chalice",
   "name": "Chalice",
   "description": "The Oceans Are Yours to Shape",
-  "version": "1.10.2-2.7",
+  "version": "1.10.2-2.8",
   "mcversion": "${mcversion}",
   "url": "chalice.gerbshert.com",
   "updateUrl": "https://minecraft.curseforge.com/projects/chalice/",

@@ -6,5 +6,5 @@ package com.gerbshert.chalice.library;
 public class Strings {
     public static final String MOD_NAME = "Chalice";
     public static final String MOD_ID = "chalice";
-    public static final String MOD_VERSION = "1.10.2-2.7";
+    public static final String MOD_VERSION = "1.10.2-2.8";
 }

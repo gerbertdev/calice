@@ -9,7 +9,7 @@ buildscript {
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
 
-version = "1.10.2-2.7"
+version = "1.10.2-2.8"
 group= "com.gerbshert.chalice"
 archivesBaseName = "chalice"
 
